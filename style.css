@@ -1,0 +1,188 @@
+* {
+    --maxwidth: 70vw;
+}
+
+header {
+    display: flex;
+    width: var(--maxwidth);
+    margin-inline: auto;
+    margin-top: 30px;
+}
+
+.encabezadoLogo {
+    display: flex;
+    align-items: center;
+}
+
+.encabezadoTextoLogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezadoLogo img {
+    width: 50px;
+    padding-right: 9px;
+}
+
+.nombreTienda {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+
+.iconos {
+    display: flex;
+    gap: 3px;
+    margin-left: 580px;
+
+}
+
+main {
+    max-width: var(--maxwidth);
+    margin-inline: auto;
+    margin-bottom: 60px;
+}
+
+.encabezado_hr {
+    background: url(img/hr-img.png);
+    height: 20px;
+    border: none;
+}
+
+.encabezadoTexto {
+    display: flex;
+    padding-top: 50px;
+}
+
+.nombrePlato {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font-size: 43px;
+}
+
+.subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+
+.encabezado_print {
+    display: flex;
+    align-items: center;
+    margin-left: 690px;
+    margin-top: 25px;
+}
+
+.encabezado_print img {
+    height: 20px;
+    padding-right: 5px;
+}
+
+.encabezado_print p {
+    display: flex;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding-right: 12px;
+    padding-top: 15px;
+}
+
+.imagen {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.contenido p {
+    font-size: 20px;
+    text-indent: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+}
+.ingredientes{
+    background-image:url("img/list-bg.png");
+    display: flex;
+    justify-content: space-around;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 250px;
+    margin-bottom: 40px; 
+}
+.ingredientes li{
+    list-style: none;
+    line-height:30px;
+    font-size: 18px; 
+}
+.datos {
+    display: flex;
+    align-items: center;
+}
+
+.encabezadodatos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.datos img {
+    width: 70px;
+    padding-right: 10px;
+}
+
+.nombre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.informacion {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    font-size: 20px;
+    color: gray;
+    
+}
+.boton{
+    padding-left: 230px;
+}
+button{
+    display: block;
+    cursor: pointer;
+    background-color:brown;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer{
+    --maxwidth: 70vw;
+}
+
+footer .footer-hr{
+    position: relative;
+}
+footer .footer-hr img{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    width: 30px;
+}
+footer .footer-p{
+    font-size: 1.1rem;
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
